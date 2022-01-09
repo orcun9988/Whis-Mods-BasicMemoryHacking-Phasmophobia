@@ -37,7 +37,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label28 = new System.Windows.Forms.Label();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.label26 = new System.Windows.Forms.Label();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -109,6 +111,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label27 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -137,9 +140,6 @@
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.timer4 = new System.Windows.Forms.Timer(this.components);
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -243,6 +243,16 @@
             this.tabPage1.Text = "STATS";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label28.Location = new System.Drawing.Point(6, 367);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(346, 40);
+            this.label28.TabIndex = 9;
+            this.label28.Text = "This is a completely free and open source \r\nPhasmophobia 0.5.1.0 cheat";
+            // 
             // groupBox13
             // 
             this.groupBox13.Controls.Add(this.label26);
@@ -256,6 +266,16 @@
             this.groupBox13.TabIndex = 8;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Sanity Changer";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(6, 92);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(159, 39);
+            this.label26.TabIndex = 9;
+            this.label26.Text = "Insanity Value 100  = 0 Sanity\r\nInsanity Value 0      = 100 Sanity\r\nInsanity Valu" +
+    "e 25    = 75 Sanity\r\n";
             // 
             // checkBox2
             // 
@@ -1040,6 +1060,16 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Ghost info";
             this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(183, 3);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(84, 13);
+            this.label27.TabIndex = 27;
+            this.label27.Text = "ONLY IN-GAME";
             // 
             // label25
             // 
@@ -1280,35 +1310,6 @@
             this.timer4.Enabled = true;
             this.timer4.Interval = 1000;
             this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(6, 92);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(159, 39);
-            this.label26.TabIndex = 9;
-            this.label26.Text = "Insanity Value 100  = 0 Sanity\r\nInsanity Value 0      = 100 Sanity\r\nInsanity Valu" +
-    "e 25    = 75 Sanity\r\n";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(183, 3);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(84, 13);
-            this.label27.TabIndex = 27;
-            this.label27.Text = "ONLY IN-GAME";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label28.Location = new System.Drawing.Point(6, 367);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(346, 40);
-            this.label28.TabIndex = 9;
-            this.label28.Text = "This is a completely free and open source \r\nPhasmophobia 0.5.1.0 cheat";
             // 
             // Form1
             // 
