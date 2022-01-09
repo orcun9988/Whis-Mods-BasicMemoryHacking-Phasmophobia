@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Memory;
+
 
 //I made this program by taking rencify's c# open source project as an example. I would like to thank
 //This hack complety free  it's work for 0.5.1.0v   when the game updates come u have to update pointers.cs
@@ -544,6 +544,11 @@ namespace WhisHacckk
         {
             int basketskor = mem.ReadInt(pointers.basket);
             label3.Text = basketskor.ToString();
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
         }
     }
  }
